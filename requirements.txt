@@ -1,13 +1,7 @@
-Initialize Repository
-Create a new GitHub repo named climate-challenge-week0.
-Clone it locally and set up a Python virtual environment (venv or conda).
-Branching & Commits
-Create a branch called setup-task.
-Commit at least 3 times with messages  following Conventional Commits conventions. For example:
-"init: add .gitignore"
-"chore: venv setup"
-"ci: add GitHub Actions workflow"
-Your branch must include:
-.gitignore (include data/ and any .csv / .ipynb_checkpoints/)
-requirements.txt
-GitHub Actions workflow (.github/workflows/ci.yml) that runs pip install -r requirements.txt
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+seaborn==0.13.2
+python-dotenv==1.0.1
+pytest==8.2.0
+flake8==7.0.0
