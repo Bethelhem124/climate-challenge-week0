@@ -5,4 +5,5 @@ seaborn
 python-dotenv
 pytest
 flake8
+scipy
 #added requirements
